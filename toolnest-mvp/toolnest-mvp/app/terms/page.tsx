@@ -1,0 +1,3 @@
+import type {Metadata} from 'next';
+export const metadata:Metadata={title:'Terms of Use'};
+export default function Terms(){return <main className="container static-page"><h1>Terms of Use</h1><p>ToolNest provides free informational tools on an as-is basis. We aim for accurate calculations, but results should be independently verified before making important financial, tax, or legal decisions.</p><p>Do not use the service to interfere with its operation or abuse its resources. Tools may change or become unavailable without notice.</p><p>Before public launch, the site operator should review these terms with appropriate professional advice and add operator identification and contact information.</p></main>}
